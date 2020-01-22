@@ -24,7 +24,6 @@ var Replay = (function () {
       TrackType[TrackType["EVENT_SELECTIONCHANGE"] = 18] = "EVENT_SELECTIONCHANGE";
       TrackType[TrackType["INPUTEVENT_INPUT"] = 19] = "INPUTEVENT_INPUT";
   })(TrackType || (TrackType = {}));
-  //# sourceMappingURL=TrackType.js.map
 
   var NodeType;
   (function (NodeType) {
@@ -35,7 +34,6 @@ var Replay = (function () {
       NodeType[NodeType["CDATA"] = 4] = "CDATA";
       NodeType[NodeType["Comment"] = 5] = "Comment";
   })(NodeType || (NodeType = {}));
-  //# sourceMappingURL=types.js.map
 
   /**
    * This file is a fork of https://github.com/reworkcss/css/blob/master/lib/parse/index.js
@@ -589,7 +587,6 @@ var Replay = (function () {
       }
       return obj;
   }
-  //# sourceMappingURL=cssParser.js.map
 
   const tagMap = {
       script: 'noscript',
@@ -769,9 +766,6 @@ var Replay = (function () {
       const idNodeMap = {};
       return [buildNodeWithSerializedNode(node, document, idNodeMap, false, HACK_CSS), idNodeMap];
   }
-  //# sourceMappingURL=rebuild.js.map
-
-  //# sourceMappingURL=LoggerBase.js.map
 
   // const isNodeNotElement = (node: Node | Element) => {
   //   return node instanceof Node && !(node instanceof Element);
@@ -824,7 +818,6 @@ var Replay = (function () {
       MutationType["characterData"] = "characterData";
       MutationType["childList"] = "childList";
   })(MutationType || (MutationType = {}));
-  //# sourceMappingURL=LoggerMutation.js.map
 
   const nodeMirror = {
       map: {},
@@ -851,7 +844,6 @@ var Replay = (function () {
           return nodeMirror.map.hasOwnProperty(id);
       }
   };
-  //# sourceMappingURL=utils.js.map
 
   class Timer {
       constructor(playerConfig, actions) {
@@ -892,7 +884,6 @@ var Replay = (function () {
           this.actions.length = 0;
       }
   }
-  //# sourceMappingURL=timer.js.map
 
   function styleInject(css, ref) {
     if ( ref === void 0 ) ref = {};
@@ -945,7 +936,6 @@ var Replay = (function () {
           this.mouse.classList.add('active');
       }
   }
-  //# sourceMappingURL=virtualMouse.js.map
 
   var SelectionDirection;
   (function (SelectionDirection) {
@@ -954,7 +944,6 @@ var Replay = (function () {
       SelectionDirection[SelectionDirection["collapsed"] = 2] = "collapsed";
       SelectionDirection[SelectionDirection["null"] = 3] = "null";
   })(SelectionDirection || (SelectionDirection = {}));
-  //# sourceMappingURL=SelectionDirection.js.map
 
   const MASKMARK = '*';
   class Replay {

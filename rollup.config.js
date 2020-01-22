@@ -1,6 +1,6 @@
 import typescript from 'rollup-plugin-typescript';
 import babel from 'rollup-plugin-babel';
-import { terser } from 'rollup-plugin-terser';
+// import { terser } from 'rollup-plugin-terser';
 import postcss from 'rollup-plugin-postcss';
 
 export default [
@@ -9,7 +9,7 @@ export default [
     output: {
       format: 'iife',
       dir: './dist',
-      file: 'art.monitor.sdk.min.js'
+      file: 'monitor.sdk.min.js'
     },
     plugins: [
       typescript(),
@@ -32,7 +32,7 @@ export default [
       format: 'iife',
       name: 'Replay',
       dir: './dist',
-      file: 'art.monitor.replay.js'
+      file: 'monitor.replay.js'
     },
     plugins: [
       typescript(),
